@@ -21,7 +21,7 @@ public class Main {
 
         Category category1 = new Category(1,"Proglamama");
         categoryManager.add(category1);
-
+        System.out.println("-------------------------------------");
         Category category2 = new Category(2,"Proglamama");
         categoryManager.add(category2);
 

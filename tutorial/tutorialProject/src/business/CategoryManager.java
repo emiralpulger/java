@@ -5,8 +5,6 @@ import dataAccess.CatagoryDao;
 import entities.Category;
 
 import java.util.ArrayList;
-import java.util.Locale;
-import java.util.logging.Logger;
 
 public class CategoryManager {
     private CatagoryDao catagoryDao;
