@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  accounts:
+    image: emiralpulger/accounts:latest
+    ports:
+      - "8080:8080"
+    networks:
+      - emirbank-network
+
+  loans:
+    image: emiralpulger/loans:latest
+    ports:
+      - "8090:8090"
+    networks:
+      - emirbank-network
+
+
+  cards:
+    image: emiralpulger/cards:latest
+    ports:
+      - "9000:9000"
+    networks:
+      - emirbank-network
+
+networks:
+  emirbank-network:
